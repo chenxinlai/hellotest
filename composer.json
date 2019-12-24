@@ -1,0 +1,25 @@
+{
+    "name": "cxl/hellotest",
+    "description": "this is test code",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xinlai Chen",
+            "email": "870363632@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload":{
+        "psr-4":{ 
+            "Test\\Library\\":"src/Test/Library"
+        }
+    }
+
+}
